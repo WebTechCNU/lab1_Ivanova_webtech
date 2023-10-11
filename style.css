@@ -1,0 +1,103 @@
+/* styles.css */
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: linear-gradient(45deg, #007BFF, #00A5FF);
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* About Section Styles */
+#about {
+    padding: 4rem 0;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+/* Portfolio Section Styles */
+#portfolio {
+    padding: 4rem 0;
+}
+
+#portfolio h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 4rem 0;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+/* Add your own custom styles here */
+
+/* Additional styling for buttons */
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Custom button styles for the portfolio section */
+.portfolio-button {
+    background-color: #00A5FF;
+    color: #fff;
+}
+
+.portfolio-button:hover {
+    background-color: #007BFF;
+}
+
+/* Additional styling for images (e.g., round corners) */
+.img-rounded {
+    border-radius: 8px;
+}

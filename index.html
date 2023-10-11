@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+
+    <!-- Custom CSS for the portfolio -->
+    <style>
+        body {
+            background-color: #c6c6be;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+        }
+
+        .hero {
+            background-color: #756659;
+            color: #ffffff;
+            text-align: center;
+            padding: 25px 0;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+        }
+
+        /* styles.css */
+        .center-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+        /* Add your additional styles for other sections */
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Kateryna Ivanova</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Kateryna Ivanova</h1>
+        <p>UX|UI designer</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <b><h2>About Me</h2></b>
+            <div class="row">
+                
+                <p>Hello, I'm Kate, a dedicated UX/UI designer passionate about crafting exceptional digital experiences. With 5 years of experience in the realm of user experience and user interface design, my mission is to bridge the gap between function and aesthetics to create impactful and intuitive designs.</p>
+                <h4>My Approach:</h4>
+                <p>My design philosophy is rooted in simplicity and user-centricity. I believe that great design goes beyond aesthetics; it should enhance how users interact with a product. I meticulously analyze user behavior and preferences to create interfaces that are not only visually appealing but also highly functional.</p>
+                <h4>Expertise:</h4>
+                <p>Throughout my career, I've had the privilege of working on a diverse range of projects, from mobile apps to websites and software platforms. I am well-versed in user research, wireframing, prototyping, and usability testing. I understand that every project is unique, and I approach each one with fresh eyes and a commitment to excellence.</p>
+                <h4>Continuous Learning:</h4>
+                <p>The world of design is ever-evolving, and I'm passionate about staying at the forefront of industry trends and emerging technologies. I'm constantly learning and experimenting with the latest design tools to deliver innovative and compelling solutions.</p>
+                <h4>Beyond Design:</h4>
+                <p>Outside of the design realm, you can often find me exploring art galleries, attending design conferences, and occasionally indulging in creative hobbies. I'm a firm believer in the power of design to shape and improve the world we live in
+                Whether you're looking to enhance your digital product, improve your website's user experience, or bring a new vision to life, I'm here to collaborate with you. Let's create something exceptional together.</p>
+                <img src="44.jpg" alt="Profile Image" class="img-fluid center-image">
+
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-light py-5">
+        <div class="container">
+            <h1>Portfolio</h1>
+            <b><h4>UX/UI Designer</h4></b>
+            <p>Welcome to my portfolio. I'm Kate, an experienced and passionate UX/UI designer dedicated to crafting exceptional digital experiences. With over [X years] of experience in the field, I've had the privilege of working on diverse projects, from mobile apps to web platforms. My mission is to bridge the gap between form and function, ensuring that every design not only looks beautiful but also works seamlessly.</p>
+            <b><h4>Design Philosophy</h4></b>
+            <p>My approach to design revolves around user-centricity, simplicity, and aesthetics. I believe that the best user experiences are achieved when design seamlessly integrates with functionality. I take pride in meticulously analyzing user behavior and preferences to create interfaces that are not just visually pleasing but highly functional and intuitive.</p>
+            <b><h4>Diverse Projects</h4></b>
+            <p>I've had the opportunity to work on a wide range of projects, each with its unique challenges and opportunities. Whether it's crafting a seamless e-commerce experience, designing a mobile app for enhanced user productivity, or developing user-friendly websites, I approach each project with fresh eyes and a commitment to excellence.</p>
+            <b><h4>Continuous Learning</h4></b>
+            <p>The world of design is ever-evolving, and I am passionate about staying at the forefront of industry trends and emerging technologies. I'm constantly learning and experimenting with the latest design tools and methodologies to deliver innovative and compelling solutions.</p>
+            <b><h4>Beyond Design</h4></b>
+            <p>Outside of my professional work, you can often find me exploring art galleries, attending design conferences, and occasionally indulging in creative hobbies. I'm a firm believer in the power of design to shape and improve the world we live in.
+
+                I'm always open to new challenges and collaborations. Whether you're looking to enhance your digital product, improve your website's user experience, or bring a new vision to life, I'm here to work with you. Let's create something exceptional together.
+                
+                Please feel free to explore my portfolio to see some of my recent work. If you have any questions or would like to discuss a project, don't hesitate to get in touch. I look forward to the opportunity to collaborate with you to create memorable and impactful digital experiences.</p>
+                <img src="2018-06-28-07-46-11.jpg" alt="Profile Image" class="img-fluid center-image">
+
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="text-center">
+            <button id="openContactModal" class="btn btn-primary btn-lg">Contact Me</button>
+        </div>
+        <div id="contactModal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="closeContactModal">&times;</span>
+                <h2>Contact Me</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneNumber">Phone Number:</label>
+                        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="question">Question or Suggestion:</label>
+                        <textarea id="question" name="question" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Kateryna Ivanova</p>
+    </footer>
+
+    <!-- Add Bootstrap JS and jQuery scripts here -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
